@@ -1086,7 +1086,7 @@ header.header-nav.menu_style_home_one.dashbord_pages.stricky-fixed li a{
   color: #124ea4;
 }
 header.header-nav.menu_style_home_one .ace-responsive-menu li a{
-  color: #124ea4;
+  color: #124ea5;
 }
 header.header-nav.menu_style_home_one .ace-responsive-menu li ul.sub-menu,
 header.header-nav.menu_style_home_three .ace-responsive-menu li ul.sub-menu,
@@ -16595,3 +16595,179 @@ h2.timer.count-title.count-number {
 	}
 
   /* custom header design  */
+  header.header-nav.menu_style_home_one.navbar-scrolltofixed.stricky.main-menu.scroll-to-fixed-fixed {
+    background: #fad230;
+}
+.fixed-form {
+  position: fixed;
+  bottom: 16px;
+  right: 75px;
+  z-index: 999999;
+  background: #124ea4!important;
+  padding: 10px!important;
+  border: none;
+  text-align: center;
+}
+
+.fix-form-inner {
+  padding: 15px 0;
+}
+.fix-form .modal-content {
+  background: #124ea4;
+}
+button.btn.get-call {
+  background: #fad230;
+}
+.fix-form .modal-content {
+  background: #124ea4;
+  top: 200px;
+}
+.modal.fade.fix-form.show {
+  background: #00000073;
+}
+/* custom button animation */
+
+
+.bottom-btn #neonShadow{
+  height:50px;
+  width:150px;
+  border: 2px solid #fad230;
+  border-radius:50px;
+  transition:0.3s;
+  background-color:rgba(156, 161, 160,0.3);
+  animation: glow 1s infinite ;
+  transition:0.5s;
+}
+.bottom-btn span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-right: 2.5%;
+    margin-right: 0px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    opacity: 1;
+    }
+    .bottom-btn span:hover{
+    transition: 1.5s;
+    opacity: 1;
+    font-weight: 700;
+    }
+
+    .bottom-btn #neonShadow:hover{
+  transform:translateX(-20px)rotate(360deg);
+  border-radius:50px;
+  background-color:#c3bacc;
+  transition:1.5s;
+}
+
+@keyframes glow{
+  0%{
+  box-shadow: 0px 5px 30px rgb(93, 52, 168),-5px -5px 20px rgb(93, 52, 168);}
+  
+  50%{
+  box-shadow: 0px 5px 30px rgb(81, 224, 210),-5px -5px 20px rgb(81, 224, 210)
+  }
+  100%{
+  box-shadow: 0px 5px 30px rgb(93, 52, 168),-5px -5px 20px rgb(93, 52, 168)
+  }
+}
+
+/* live whatsapp */
+.whatsapp {
+  width: 60px;
+  height: 60px;
+  font-size: 23px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  background: #01e675;
+  position: fixed;
+  left :5%;
+  bottom : 50px;
+  z-index: 999999;
+  display: inline-block;
+  box-shadow: 0 0 0 0 rgba(255,255,255,.7);
+  -webkit-animation: pulse2 2s infinite cubic-bezier(.66, 0, 0, 1);
+  animation: pulse2 2s infinite cubic-bezier(.66, 0, 0, 1);
+}
+.whatsapp i {
+  /*position: relative;*/
+  z-index: 5;
+  font-size: 30px;
+  line-height: 60px;
+  color : #fff;
+  animation : rotate 2s linear infinite;
+}
+@keyframes rotate{
+  0%{
+      transform : rotate(0);
+  }
+  50%{
+      transform : rotate(25deg);
+  }
+  100%{
+      transform : rotate(0);
+  }
+}
+.whatsapp:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.42;
+  border-radius: 50%;
+  background: #fff;
+  transform: scale(1.3);
+  box-shadow: 0 0 0 0 rgba(255,255,255,.7);
+  -webkit-animation: pulse2 1.75s infinite cubic-bezier(.66, 0, 0, 1);
+  animation: pulse2 1.75s infinite cubic-bezier(.66, 0, 0, 1);
+}
+/*.whatsapp button animation*/
+/*.whatsapp button animation*/
+
+@-webkit-keyframes pulse2 {
+
+  to {
+ 
+  box-shadow: 0 0 0 45px transparent
+ 
+ }
+ 
+ }
+ 
+  @keyframes pulse2 {
+ 
+  to {
+ 
+  box-shadow: 0 0 0 45px transparent
+ 
+ }
+ 
+ }
+/* header-phone on mobile  */
+li.list-inline-item.list_s.phone {
+  font-size: 35px;
+}
+li.list-inline-item.list_s.phone {
+  z-index: 5;
+  font-size: 30px;
+  line-height: 60px;
+  color : #fff;
+  animation : rotate2 2s linear infinite;
+}
+@keyframes rotate2{
+  0%{
+      transform : rotate(0);
+  }
+  50%{
+      transform : rotate(10deg);
+  }
+  100%{
+      transform : rotate(0);
+  }
+}
