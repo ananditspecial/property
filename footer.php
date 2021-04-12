@@ -1,4 +1,3 @@
-<?php
 <div class="bottom-btn">
 <button id="neonShadow" type="button" class="btn btn-primary fixed-form" data-toggle="modal" data-target=".fix-form"> <SPAN>Get a Call</SPAN> </button>
 </div>
