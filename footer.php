@@ -1,4 +1,32 @@
-	<!-- Our Footer -->
+<div class="bottom-btn">
+<button id="neonShadow" type="button" class="btn btn-primary fixed-form" data-toggle="modal" data-target=".fix-form"> <SPAN>Get a Call</SPAN> </button>
+</div>
+
+<!-- <div class=""> -->
+	<div class="modal fade fix-form" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="container">
+					<div class="fix-form-inner">
+					<form>
+						<div class="form-group">
+							<input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter Your Nme">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+						</div>
+						<div class="form-group">
+							<input type="number" class="form-control" id="phone" placeholder="Enter Phone Number">
+						</div>
+					
+						<button type="submit" class="btn get-call">Submit</button>
+				</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Our Footer -->
 	<section class="footer_one">
 		<div class="container">
 			<div class="row">
@@ -74,6 +102,7 @@
 		</div>
 	</section>
 <a class="scrollToHome" href="#"><i class="flaticon-arrows"></i></a>
+<a href="https://api.whatsapp.com/send?phone=919315244186" class="whatsapp" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
 </div>
 <!-- Wrapper End -->
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="js/jquery-3.3.1.js"></script>
