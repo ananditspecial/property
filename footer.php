@@ -1,8 +1,6 @@
 <div class="bottom-btn">
 <button id="neonShadow" type="button" class="btn btn-primary fixed-form" data-toggle="modal" data-target=".fix-form"> <SPAN>Get a Call</SPAN> </button>
 </div>
-
-<!-- <div class=""> -->
 	<div class="modal fade fix-form" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
